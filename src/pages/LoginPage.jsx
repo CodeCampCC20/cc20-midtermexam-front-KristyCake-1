@@ -42,7 +42,7 @@ function LoginPage() {
         <input type="text" className="input" placeholder="email"
           id='username' value={formData.username}
           onChange={hdlChange} />
-        <p className='text-red-600 text-center'>{errObj.email}</p>
+        <p className='text-red-600 text-center'>{errObj.username}</p>
 
         <input type="password" className="input" placeholder="password"
           id='password' value={formData.password}
@@ -52,7 +52,7 @@ function LoginPage() {
         <button className='btn btn-neutral mt-4' type='submit' onClick={hdlSubmit} >LOG IN</button>
 
       </fieldset>
-      <pre>{JSON.stringify(formData, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(formData, null, 2)}</pre> */}
     </div>
   )
 }

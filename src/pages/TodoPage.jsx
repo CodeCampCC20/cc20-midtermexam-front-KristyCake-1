@@ -59,7 +59,7 @@ function TodoPage() {
       </fieldset>
 
 
-      {/* <pre>{JSON.stringify(posts, null, 2)}</pre> */}
+      {/* <pre>{JSON.stringify(posts, nucll, 2)}</pre> */}
     </div>
   )
 }
