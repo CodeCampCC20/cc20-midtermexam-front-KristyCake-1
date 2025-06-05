@@ -40,7 +40,7 @@ function TodoPage() {
 
   return (
     <div className='flex justify-center'>
-      <p>Post page is my TOdoPage</p>
+      {/* <p>Post page is my TOdoPage</p> */}
 
       <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4" >
         <h2 className="card-title">My Todo</h2>
@@ -59,7 +59,7 @@ function TodoPage() {
       </fieldset>
 
 
-      <pre>{JSON.stringify(posts, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(posts, null, 2)}</pre> */}
     </div>
   )
 }
